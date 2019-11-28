@@ -1,0 +1,118 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+.nine{
+  height:50px;
+  width:50px;
+
+}
+.zero{
+    font-family: 'Amatic SC', cursive;
+    font-size:75px;
+    padding: 0px 0px 65px 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    font-weight: bold;
+   }
+.one{
+       background-image: url("02.jpg");
+       padding: 50px 0px 30px 0px;
+       font-family: 'Amatic SC', cursive;
+       text-align: center;
+       font-size:90px;
+       font-weight: bold;
+    }
+.two{
+      font-family: 'Amatic SC', cursive;
+      font-size:65px;
+      color:grey;
+      font-weight: 3;
+      padding: 50px 0px 30px 0px;
+    }
+.three{
+      background-image: url("03.png");
+     
+      font-family: 'Amatic SC', cursive;
+      font-size:50px;
+      font-weight:bold;
+      padding: 50px 0px 30px 0px;
+      color:white;
+    }
+.four{
+      background-color: darkslateblue;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size:30px;
+      color:white;
+      padding:50px 30px;
+      margin-top: 0%;
+      margin-bottom: 0%;
+    }
+.five{
+      font-family: 'Amatic SC', cursive;
+      font-size:90px;
+      font-weight: bold;
+      color:green;
+      padding:20px 0px 0px 0px;
+      margin-top: 0%;
+}
+.six{
+      font-size:30px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight:1;
+      padding:30px 40px; 
+    }
+.button {
+      background-color:green;
+      border: none;
+      border-radius:5px;
+      color: white;
+      padding: 10px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    img{
+      height:500px;
+      width:500px;
+    }
+    .new{
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size:30px;
+      width:700px;
+      height:900px;
+      padding:20px;
+      box-shadow:10px 10px 15px grey;
+    }
+    .image{
+      height: 30px;
+      width: 30px;
+    }
+
+
+    @media (max-width:600px) {
+      .one{
+      color:white;
+      width:480px;
+      }
+      .two{
+        font-size:55px;
+      }
+      .five{
+        margin-left: 50px;
+      }
+      img{
+        height:270px;
+      width:270px;
+      }
+     .new{
+      width:300px;
+      height:800px;
+      font-size:20px;
+      margin-left: 60px;
+     }
+      
+    }
